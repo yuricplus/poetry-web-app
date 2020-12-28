@@ -1,0 +1,39 @@
+@import '../../assets/styles/variables.scss';
+
+
+nav.nav__menu {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+    button {
+        border: none;
+        background: transparent;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .align__right {
+        display: flex;
+        justify-content: space-between;
+
+        * {
+          padding: 2px;
+        }
+    }
+
+    .logo__name {
+        text-align: center;
+        span {
+            color: $secondary-color;
+            font-weight: 700;
+            font-family: $Roboto;
+            font-size: 32px;
+        }
+    }
+
+    .icon {
+        color: $secondary-color;
+    }
+}

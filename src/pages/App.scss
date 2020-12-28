@@ -1,0 +1,10 @@
+@import '../assets/styles/variables.scss';
+
+.container {
+  background-color: $background-primary;
+  min-height: 100vh;
+  max-width: 100%;
+  width: 1200px;
+  margin: auto;
+}
+
